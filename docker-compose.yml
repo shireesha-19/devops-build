@@ -1,0 +1,8 @@
+version: '3'
+services:
+nginx:
+image: your-dockerhub-username/custom-nginx:latest
+ports:
+- "80:80"
+volumes:
+- ./nginx-data:/var/opt/nginx
