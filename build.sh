@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t react-app:latest .
+docker build -t nginx:latest .
