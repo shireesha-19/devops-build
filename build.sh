@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t appq .
+docker build -t custom-nginx:latest .
