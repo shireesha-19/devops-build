@@ -1,6 +1,10 @@
  pipeline {
     agent any
-
+stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: '
+            }
+        }
     stages {
         stage('Build and Push Docker Image') {
             steps {
